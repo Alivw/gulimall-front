@@ -250,6 +250,8 @@ export default {
       this.dialogVisible = true;
       this.category.name=data.name;
       this.category.catId=data.catId;
+      this.category.icon=data.icon;
+      this.category.productUnit=data.productUnit;
 
       //发送请求获取当前节点最新的数据
       this.$http({
